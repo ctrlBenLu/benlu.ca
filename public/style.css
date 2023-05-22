@@ -1,6 +1,6 @@
 /* || GLOBAL || */
 :root {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   max-width: 550px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 header > h1 {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 2.5em;
   font-weight: bold;
   margin: 5px 0;

@@ -4,11 +4,11 @@
   header {
     flex-wrap: wrap;
   }
-  
+
   header > nav > ul {
     min-width: unset;
   }
-  
+
   header > nav > ul > li:not(:last-child) {
     padding-right: 5px;
   }
@@ -27,7 +27,7 @@
   main > article > h1 {
     width: 90vw;
   }
-  
+
   main > article > p {
     width: 90vw;
     padding: 0 5vw;
