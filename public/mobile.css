@@ -1,0 +1,48 @@
+/* || MOBILE SCREENS || */
+@media (max-width: 450px) {
+  /* || HEADER || */
+  header {
+    flex-wrap: wrap;
+  }
+  
+  header > nav > ul {
+    min-width: unset;
+  }
+  
+  header > nav > ul > li:not(:last-child) {
+    padding-right: 5px;
+  }
+  /* || MAIN || */
+  main {
+    max-width: 90vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  main > article {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  main > article > h1 {
+    width: 90vw;
+  }
+  
+  main > article > p {
+    width: 90vw;
+    padding: 0 5vw;
+    max-width: unset;
+  }
+
+  main > figure {
+    margin: 0 auto;
+  }
+
+  /* || FOOTER || */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}

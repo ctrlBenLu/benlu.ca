@@ -1,0 +1,118 @@
+/* || GLOBAL || */
+:root {
+  font-family: 'Lato', sans-serif;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 15px;
+}
+
+a {
+  color: orange;
+}
+
+/* || HEADER || */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+
+header > h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+header > nav {
+  margin-right: 15px;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  list-style-type: none;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+}
+
+.current-page {
+  color: black;
+}
+
+/* || MAIN || */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main > article {
+  display: flex;
+  flex-direction: column;
+}
+
+main > article > h1 {
+  font-size: 1.7em;
+  margin-bottom: 15px;
+}
+
+main > article > p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+main > figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+}
+
+main > figure > img {
+  min-width: 200px;
+  min-height: 250px;
+}
+
+main > figure > figcaption {
+  font-size: smaller;
+  margin-top: 10px;
+  text-align: center;
+  color: dimgrey;
+}
+
+/* || FOOTER || */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  font-size: smaller;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+footer > p {
+  margin-right: 5px;
+}
+
+footer > nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer > nav > ul > li > a > img {
+  min-width: 22px;
+  min-height: 22px;
+}
+
+footer > nav > ul > li:not(:last-child) {
+  padding-right: 10px;
+}
