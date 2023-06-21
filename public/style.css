@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: orange;
+  color: lightskyblue;
 }
 
 /* || HEADER || */
@@ -86,6 +86,38 @@ main > figure > figcaption {
   margin-top: 10px;
   text-align: center;
   color: dimgrey;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-object {
+  border-radius: 10px;
+  border: 1px solid lightskyblue;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.portfolio-object-image {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.portfolio-object-text {
+  border-top: 1px solid lightskyblue;
+  background-color: aliceblue;
+  padding-left: 10px;
+}
+
+.portfolio-object-link {
+  text-decoration: none;
+  color: steelblue;
 }
 
 /* || FOOTER || */
